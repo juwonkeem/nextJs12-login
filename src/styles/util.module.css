@@ -1,0 +1,26 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #374151;
+  color: #d1d5db;
+  border-radius: 0.375rem;
+}
+.header:hover {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+
+.logout {
+  color: #d1d5db;
+}
+.logout:hover {
+  color: #ffffff;
+}

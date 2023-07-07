@@ -1,0 +1,46 @@
+{
+  "name": "d1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "local": "env-cmd -f .env.local next dev",
+    "dev": "env-cmd -f .env.dev next dev",
+    "stage": "env-cmd -f .env.stage next dev",
+    "prod": "env-cmd -f .env.prod next dev",
+    "localbuild": "env-cmd -f .env.local next build",
+    "devbuild": "env-cmd -f .env.dev next build",
+    "stagebuild": "env-cmd -f .env.stage next build",
+    "prodbuild": "env-cmd -f .env.prod next build",
+    "format": "prettier --write \"**/*.+(tsx|ts|json)\""
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-typescript": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "env-cmd": "^10.1.0",
+    "mongoose": "^7.3.1",
+    "next": "^12.1.6",
+    "next-auth": "^4.22.1",
+    "prettier": "^2.8.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.8",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.1.6"
+  }
+}
